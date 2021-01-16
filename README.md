@@ -4,7 +4,9 @@ This repository contains a simple example showing how to use the Vulkan computin
 
 This example is built with cmake which makes it simpler to build across multiple platforms.
 
-To set up you just need to make sure you have the Vulkan SDK installed, and then you can run `cmake .`.
+To set up you just need to make sure you have the Vulkan SDK installed.
+
+To set up build you just need to run `cmake .`.
 
 Example output from program:
 
