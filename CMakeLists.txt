@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-DRELEASE=1")
 find_package(Vulkan REQUIRED)
 
 add_executable(vulkan_computing
-    src/Main.cpp)
+    main.cpp)
 
 target_link_libraries(vulkan_computing
     Vulkan::Vulkan

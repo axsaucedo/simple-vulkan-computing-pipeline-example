@@ -83,6 +83,11 @@ tags.*
 
 # Visual Studio 2015 user specific files
 .vs/
+*.vcxproj
+CMakeCache.txt
+CMakeFiles/
+*.filters
+*.cmake
 
 # Visual Studio 2015 database file
 *.VC.db
