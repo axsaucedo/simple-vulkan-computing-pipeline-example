@@ -395,7 +395,7 @@ class VulkanCompute
               sizeof(SpecializationData),
               &specializationData);
 
-            const std::string shadersPath = "../shaders/glsl/";
+            const std::string shadersPath = "shaders/glsl/";
             const std::string shaderFilePath =
               shadersPath + "computeheadless.comp.spv";
             std::cout << "INFO: " << "Shader file path: " << shaderFilePath << std::endl;
