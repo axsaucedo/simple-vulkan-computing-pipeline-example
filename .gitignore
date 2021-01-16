@@ -88,6 +88,10 @@ CMakeCache.txt
 CMakeFiles/
 *.filters
 *.cmake
+Debug/
+*.dir/
+x64/
+Release/
 
 # Visual Studio 2015 database file
 *.VC.db
